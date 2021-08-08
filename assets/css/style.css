@@ -480,6 +480,9 @@ button {
   text-decoration: none;
   font-size: 15px;
 }
+.login .login-content .login-form .havaaccount {
+  text-align: right;
+}
 .login .login-content .login-form .btn-submit {
   margin-top: 15px;
 }
@@ -726,6 +729,32 @@ button {
 }
 /* Small Screens */
 /* Mobile & Tablets */
+@media (max-width: 767px) {
+  .mynavbar .option {
+    justify-content: center;
+  }
+
+  .mynavbar .logo {
+    text-align: center;
+  }
+  .mynavbar .logo img {
+    display: block;
+    width: 150px;
+    margin: auto;
+  }
+
+  .mynavbar .option {
+    margin-top: 10px;
+  }
+
+  .mynavbar .option a {
+    padding: 7px 11px;
+  }
+
+  .header .header-content {
+    padding-top: 100px;
+  }
+}
 /* Tablets */
 @media (max-width: 479px) {
   .mynavbar .option {
@@ -780,6 +809,10 @@ button {
 
   .login .forget-password {
     margin-top: 10px;
+  }
+
+  .login .login-content .login-form .btn-submit .btn {
+    font-size: 13px;
   }
 }
 .header {
